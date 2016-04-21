@@ -84,8 +84,8 @@ function getDatePart(part, offset) {
 
 function getMonth(offset) {
   var today = new Date();
-  var months = [ "January", "February", "March", "April", "May", "June",
-            "July", "August", "September", "October", "November", "December" ];
+  var months = [ "Januar", "Februar", "März", "April", "Mai", "Juni",
+            "Juli", "August", "September", "Oktober", "November", "Dezember" ];
   var month = today.getMonth();
     month = parseInt(month) + offset;
     month = month % 12;
